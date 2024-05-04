@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule>
+    <day name="Понедельник">
+        <event>
+            <time>09:20-10:40(Офис 1)</time>
+            <course>Совещание по автострахованию</course>
+            <instructor>Иванов Иван Иванович</instructor>
+        </event>
+        <event>
+            <time>11:00-12:20(Офис 1)</time>
+            <course>Обучение по страхованию жизни</course>
+            <instructor>Петров Петр Петрович</instructor>
+        </event>
+        <event>
+            <time>12:40-13:00(Офис 1)</time>
+            <course>Совещание по страхованию недвижимости</course>
+            <instructor>Сидоров Сидор Сидорович</instructor>
+        </event>
+        <event>
+            <time>13:20-14:40(Офис 1)</time>
+            <course>Обучение по страхованию здоровья</course>
+            <instructor>Васильев Василий Васильевич</instructor>
+        </event>
+        <event>
+            <time>17:00-18:20(Офис 1)</time>
+            <course>Совещание по страхованию бизнеса</course>
+            <instructor>Алексеев Алексей Алексеевич</instructor>
+        </event>
+        <event>
+            <time>18:20-19:40(Офис 1)</time>
+            <course>Обучение по страхованию путешествий</course>
+            <instructor>Михайлов Михаил Михайлович</instructor>
+        </event>
+    </day>
+</schedule>
