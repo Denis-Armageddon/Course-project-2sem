@@ -70,6 +70,9 @@ html {
     flex-direction: row;
     padding-inline-start: 0;
   }
+  header#mainheader section#menu nav ul li a:hover {
+    color: gray;
+  }
   
   header#mainheader section#menu nav ul li {
     list-style-type: none;
