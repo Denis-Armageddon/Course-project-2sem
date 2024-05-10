@@ -685,7 +685,7 @@ width:160px;
   
   footer#mainfooter nav#footnav ul li {
     display: inline-block;
-    margin: auto 1em;
+    margin: auto 0.5em;
   }
   
   footer#mainfooter nav#footnav ul li a {
@@ -703,11 +703,12 @@ width:160px;
     }
     div.separator {
       background-color: #5da9f6;
-      width: 50%;
+      width: 40%;
       margin: 1em;
       opacity: 0.75;
       height: 3px;
     }
+    
   }
   
   footer#mainfooter p {
