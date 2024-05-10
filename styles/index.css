@@ -110,12 +110,13 @@ width:160px;
       display: none;
     }
 
+
   
     header#mainheader section#menu nav label {
       display: block;
       width: 3em;
       height: 3em;
-      margin-right: 1em;
+      margin-right: 2em;
     }
   
     header#mainheader section#menu nav label img:first-child {
@@ -194,15 +195,7 @@ width:160px;
     height: 32px;
   }
   
-  @keyframes arrowmove {
-    40% {
-      bottom: 12px;
-    }
-  
-    100% {
-      bottom: 200;
-    }
-  }
+
   
 
   
@@ -346,12 +339,24 @@ width:160px;
   #kasko  {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    margin-left: 0em;
+    margin-left: -1em;
   }
   #kas1 h1{
     margin-left: 1em;
+    font-size: 25px;
 
   }
+  .li1 {
+    font-size:25px;
+}
+.li2 {
+  font-size:15px;
+  
+}
+#kas1{
+
+  width: 90%;
+}
 
   
 }
@@ -453,6 +458,10 @@ width:160px;
     gap:10px;
     
   }
+  #sluchay h1 {
+    font-size: 1em;
+    margin-left: 4.5em;
+  }
 
 }
 
@@ -479,7 +488,7 @@ width:160px;
   }
   
   section#about article h2 {
-    font-size: 2.5em;
+    
     text-align: center;
     font-size:35px;
     font-family:Inter;
@@ -530,8 +539,38 @@ width:160px;
   @media screen and (max-width: 425px) {
     section#about article #ab1 {
       grid-template-columns:repeat(1, 1fr);
-      margin-left: 1em;
+      margin-left: 4em;
       
+    }
+    section#about article p {
+      height:300px;
+    width:200px;
+    font-size: 0.8em;
+    }
+    #im1 {
+      margin-top: 7em;
+      width: 4em;
+      height: 4em;
+    }
+  
+    #im2 {
+      margin-top: 2em;
+      width: 5em;
+      height: 5em;
+    }
+  
+    #im3 {
+      margin-top: 7em;
+      width: 6em;
+      height: 6em;
+    }
+    section#about article p img {
+
+      margin-left: 5em;
+      
+    }
+    section#about article h2 {
+      font-size:25px;
     }
 
   }
@@ -661,6 +700,13 @@ width:160px;
   @media screen and (max-width: 425px) {
     footer#mainfooter nav#footnav ul li a {
       font-size: 1.1em;
+    }
+    div.separator {
+      background-color: #5da9f6;
+      width: 50%;
+      margin: 1em;
+      opacity: 0.75;
+      height: 3px;
     }
   }
   
