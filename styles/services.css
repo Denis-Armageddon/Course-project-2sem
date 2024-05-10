@@ -79,6 +79,9 @@ html {
     font-style: normal;
     font-weight: 400;
   }
+  header#mainheader section#menu nav ul li a:hover {
+    color: gray;
+  }
   
   header#mainheader section#menu nav ul li a:hover {
     text-shadow: 0 0 2px #e4e4e4;
